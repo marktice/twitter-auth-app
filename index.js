@@ -38,4 +38,5 @@ app.post('/', (req, res) => {
 
 app.listen(PORT, () => {
   console.info(`server running on port ${PORT}`);
+  console.log('Welcome to our example twitter app');
 });
