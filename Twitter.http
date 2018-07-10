@@ -1,0 +1,26 @@
+
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "status": "I took a photo of my breakfast (API CALL)"
+}
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "status": "I took a photo of my lunch (API CALL) #coderacademy"
+}
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "status": "I took a photo of my dinner (API CALL)"
+}
